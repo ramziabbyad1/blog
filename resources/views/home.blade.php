@@ -55,11 +55,7 @@ There are no posts at this time.
 			@else
 			<article>
 				{!! 
-					str_limit(
-						$post->body, 
-						$limit=1500, 
-						$end='.........'
-					)  
+					$post->body  
 				!!}
 			@endif
 		</div>
