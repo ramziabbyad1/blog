@@ -10,7 +10,6 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-use Log;
 Route::get('/', 'PostController@index');
 Route::get('/home', ['as' => 'home',
 	'uses' => 'PostController@index'
