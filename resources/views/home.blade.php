@@ -42,15 +42,26 @@ There are no posts at this time.
 			</p>
 		</div>
 		<div class="list-group-item">
+			@if ($post->active)
 			<article>
 				{!! 
 					str_limit(
 						$post->body, 
 						$limit=1500, 
-						$end='........<a href='.url("/".$post->slug).'>Read More</a>'
+						$end='........'<a href='.url("/".$post->slug).'>Read More</a>'
 					)  
 				!!}
 			</article>
+			@else
+			<article>
+				{!! 
+					str_limit(
+						$post->body, 
+						$limit=1500, 
+						$end='.........'
+					)  
+				!!}
+			@endif
 		</div>
 	</div>
 	@endforeach
