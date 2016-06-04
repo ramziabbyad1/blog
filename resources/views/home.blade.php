@@ -48,7 +48,7 @@ There are no posts at this time.
 					str_limit(
 						$post->body, 
 						$limit=1500, 
-						$end='........'<a href='.url("/".$post->slug).'>Read More</a>'
+						$end='........<a href='.url("/".$post->slug).'>Read More</a>'
 					)  
 				!!}
 			</article>
