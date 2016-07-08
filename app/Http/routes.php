@@ -29,9 +29,8 @@ Route::controllers([
 	'password' => 'Auth\PasswordController'
 ]);
 //
-Route::group(['middleware' => ['auth'/*, 'timeout'*/]], function()
+Route::group(['middleware' => ['auth']], function()
 {
-	Log::info('middleware!!!!!!!!!!!!!!!!!!!!!!!!!!!');
 	Route::get('new-post', 'PostController@create');
 	Route::post('new-post', 'PostController@store');
 	Route::get('edit/{slug}', 'PostController@edit');
