@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width,
 			initial-scale=1">
 		
-        <title>Ramzi's Blog</title>
+        <title>Ramzi Abbyad's Blog</title>
 
 		<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
