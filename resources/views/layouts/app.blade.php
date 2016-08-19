@@ -35,7 +35,7 @@
 					</button>
 					<a class="navbar-brand" 
 						href="{{ url('/') }}">
-						Ramzi's Blog
+						Ramzi Abbyad's Blog
 					</a>
 				</div>
 				<div class="collapse navbar-collapse"
