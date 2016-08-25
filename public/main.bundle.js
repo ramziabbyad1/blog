@@ -6152,7 +6152,6 @@ webpackJsonp([2],{
 	            }
 	            this.groups.push(group);
 	        }
-	        console.log(this.groups);
 	    };
 	    Comparisons.prototype.groupBy = function (criteria) {
 	        criteria.reduce(function (acc, item) {
@@ -6406,6 +6405,11 @@ webpackJsonp([2],{
 	            .delete(criterium)
 	            .then(function (res) {
 	            _this.criteria = _this.criteria.filter(function (c) { return c !== criterium; });
+	            _this.criteria.forEach(function (c) {
+	                if (c.parent_id === criterium.id) {
+	                    _this.deleteCriterium(c, event);
+	                }
+	            });
 	            if (_this.selectedCriterium === criterium) {
 	                _this.selectedCriterium = null;
 	            }
