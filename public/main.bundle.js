@@ -6086,7 +6086,6 @@ webpackJsonp([2],{
 	        };
 	        this.calculator = new calculator_1.Calculator();
 	    }
-	    //this works okay, but if you use only matrices with names replaced by criteria it will be best
 	    Comparisons.prototype.ngOnInit = function () {
 	        var _this = this;
 	        this.groups = [];
@@ -6404,6 +6403,10 @@ webpackJsonp([2],{
 	        this.criteriaService
 	            .delete(criterium)
 	            .then(function (res) {
+	            _this.criteria[0].changed = true;
+	            _this.criteriaService
+	                .save(_this.criteria[0])
+	                .catch(function (error) { return _this.error = error; });
 	            _this.criteria = _this.criteria.filter(function (c) { return c !== criterium; });
 	            _this.criteria.forEach(function (c) {
 	                if (c.parent_id === criterium.id) {

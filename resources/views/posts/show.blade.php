@@ -5,6 +5,7 @@
 		@if (!Auth::guest() 
 			&& ($post->author_id == Auth::user()->id 
 				|| Auth::user()->is_admin()))
+		<div class="list-group">
 			<button class="btn" style="float:right">
 				<a href="{{ url('edit/'.$post->slug) }}" >
 					Edit Post
@@ -42,9 +43,12 @@
 	});
 </script>
 @if ($post)
+<div class="list-group-item">
 	<div>
 		{!! $post->body !!}
 	</div>
+</div>
+</div>
 	<div>
 		<h2>Leave a comment</h2>
 	</div>
