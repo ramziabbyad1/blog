@@ -7589,7 +7589,7 @@ webpackJsonp([1],[
 	    exports.root = freeGlobal;
 	}
 	//# sourceMappingURL=root.js.map
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(807)(module), (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(808)(module), (function() { return this; }())))
 
 /***/ },
 /* 63 */
@@ -59435,7 +59435,8 @@ webpackJsonp([1],[
 /* 804 */,
 /* 805 */,
 /* 806 */,
-/* 807 */
+/* 807 */,
+/* 808 */
 /***/ function(module, exports) {
 
 	module.exports = function(module) {

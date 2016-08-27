@@ -5958,7 +5958,7 @@ webpackJsonp([2],{
 	    PieChart = __decorate([
 	        core_1.Component({
 	            selector: 'pie-chart',
-	            styles: [__webpack_require__(796)],
+	            styles: [__webpack_require__(797)],
 	            template: '<div class="chart"></div>'
 	        }), 
 	        __metadata('design:paramtypes', [(typeof (_b = typeof core_1.ElementRef !== 'undefined' && core_1.ElementRef) === 'function' && _b) || Object])
@@ -6039,7 +6039,7 @@ webpackJsonp([2],{
 	            selector: 'comparison-results',
 	            directives: [hierarchy_1.Hierarchy, pie_chart_1.PieChart],
 	            template: __webpack_require__(741),
-	            styles: [__webpack_require__(797)]
+	            styles: [__webpack_require__(798)]
 	        }), 
 	        __metadata('design:paramtypes', [(typeof (_b = typeof matrix_service_1.MatrixService !== 'undefined' && matrix_service_1.MatrixService) === 'function' && _b) || Object, (typeof (_c = typeof router_1.ActivatedRoute !== 'undefined' && router_1.ActivatedRoute) === 'function' && _c) || Object])
 	    ], ComparisonResults);
@@ -6276,7 +6276,7 @@ webpackJsonp([2],{
 	        core_1.Component({
 	            selector: 'comparisons',
 	            template: __webpack_require__(742),
-	            styles: [__webpack_require__(798)]
+	            styles: [__webpack_require__(799)]
 	        }), 
 	        __metadata('design:paramtypes', [(typeof (_b = typeof criteria_service_1.CriteriaService !== 'undefined' && criteria_service_1.CriteriaService) === 'function' && _b) || Object, (typeof (_c = typeof matrix_service_1.MatrixService !== 'undefined' && matrix_service_1.MatrixService) === 'function' && _c) || Object, (typeof (_d = typeof router_1.Router !== 'undefined' && router_1.Router) === 'function' && _d) || Object])
 	    ], Comparisons);
@@ -6346,7 +6346,7 @@ webpackJsonp([2],{
 	        core_1.Component({
 	            selector: 'criteria-search',
 	            template: __webpack_require__(743),
-	            styles: [__webpack_require__(799)],
+	            styles: [__webpack_require__(800)],
 	            providers: [criteria_search_1.CriteriaSearchService]
 	        }), 
 	        __metadata('design:paramtypes', [(typeof (_b = typeof criteria_search_1.CriteriaSearchService !== 'undefined' && criteria_search_1.CriteriaSearchService) === 'function' && _b) || Object, (typeof (_c = typeof router_1.Router !== 'undefined' && router_1.Router) === 'function' && _c) || Object])
@@ -6434,7 +6434,7 @@ webpackJsonp([2],{
 	            selector: 'criteria',
 	            providers: [criteria_service_1.CriteriaService],
 	            template: __webpack_require__(744),
-	            styles: [__webpack_require__(800)]
+	            styles: [__webpack_require__(801)]
 	        }), 
 	        __metadata('design:paramtypes', [(typeof (_a = typeof router_1.Router !== 'undefined' && router_1.Router) === 'function' && _a) || Object, (typeof (_b = typeof criteria_service_1.CriteriaService !== 'undefined' && criteria_service_1.CriteriaService) === 'function' && _b) || Object])
 	    ], Criteria);
@@ -6525,7 +6525,7 @@ webpackJsonp([2],{
 	            selector: 'criterium-detail',
 	            directives: [criteria_search_1.CriteriaSearch],
 	            template: __webpack_require__(745),
-	            styles: [__webpack_require__(801)]
+	            styles: [__webpack_require__(802)]
 	        }), 
 	        __metadata('design:paramtypes', [(typeof (_b = typeof criteria_service_1.CriteriaService !== 'undefined' && criteria_service_1.CriteriaService) === 'function' && _b) || Object, (typeof (_c = typeof router_1.ActivatedRoute !== 'undefined' && router_1.ActivatedRoute) === 'function' && _c) || Object])
 	    ], CriteriumDetail);
@@ -6646,7 +6646,7 @@ webpackJsonp([2],{
 	    Hierarchy = __decorate([
 	        core_1.Component({
 	            selector: 'hierarchy',
-	            styles: [__webpack_require__(802)],
+	            styles: [__webpack_require__(803)],
 	            template: "\n\t\t<h2>Sample Hierarchy</h2>\n\t\t<p>Click criteria tab to edit</p>\n\t\t<ng-content></ng-content>\n\t",
 	            directives: []
 	        }), 
@@ -6694,7 +6694,7 @@ webpackJsonp([2],{
 	        core_1.Component({
 	            selector: 'repo-browser',
 	            template: __webpack_require__(746),
-	            styles: [__webpack_require__(803)]
+	            styles: [__webpack_require__(804)]
 	        }), 
 	        __metadata('design:paramtypes', [(typeof (_a = typeof router_1.Router !== 'undefined' && router_1.Router) === 'function' && _a) || Object, (typeof (_b = typeof github_1.Github !== 'undefined' && github_1.Github) === 'function' && _b) || Object])
 	    ], RepoBrowser);
@@ -6745,7 +6745,7 @@ webpackJsonp([2],{
 	    RepoDetail = __decorate([
 	        core_1.Component({
 	            selector: 'repo-detail',
-	            styles: [__webpack_require__(804)],
+	            styles: [__webpack_require__(805)],
 	            template: __webpack_require__(747)
 	        }), 
 	        __metadata('design:paramtypes', [(typeof (_a = typeof github_1.Github !== 'undefined' && github_1.Github) === 'function' && _a) || Object, (typeof (_b = typeof router_1.Router !== 'undefined' && router_1.Router) === 'function' && _b) || Object, (typeof (_c = typeof router_1.ActivatedRoute !== 'undefined' && router_1.ActivatedRoute) === 'function' && _c) || Object])
@@ -6791,7 +6791,7 @@ webpackJsonp([2],{
 	    RepoList = __decorate([
 	        core_1.Component({
 	            selector: 'repo-list',
-	            styles: [__webpack_require__(805)],
+	            styles: [__webpack_require__(806)],
 	            template: __webpack_require__(748),
 	        }), 
 	        __metadata('design:paramtypes', [(typeof (_a = typeof github_1.Github !== 'undefined' && github_1.Github) === 'function' && _a) || Object, (typeof (_b = typeof router_1.ActivatedRoute !== 'undefined' && router_1.ActivatedRoute) === 'function' && _b) || Object])
@@ -6826,7 +6826,7 @@ webpackJsonp([2],{
 	        core_1.Component({
 	            selector: 'home',
 	            directives: [about_1.About],
-	            styles: [__webpack_require__(806)],
+	            styles: [__webpack_require__(807)],
 	            template: __webpack_require__(749)
 	        }), 
 	        __metadata('design:paramtypes', [])
@@ -23507,6 +23507,7 @@ webpackJsonp([2],{
 	        core_1.Component({
 	            selector: 'app',
 	            template: __webpack_require__(740),
+	            styles: [__webpack_require__(796)]
 	        }), 
 	        __metadata('design:paramtypes', [])
 	    ], AppComponent);
@@ -29211,56 +29212,56 @@ webpackJsonp([2],{
 /***/ 796:
 /***/ function(module, exports) {
 
-	module.exports = ":host {\n  height: 360px;\n  margin: 0 auto;                                               /* NEW */\n  position: relative;\n  width: 360px;\n}\n:host .tooltip {\n  background: #eee;\n  box-shadow: 0 0 5px #999999;\n  color: #333;\n  display: none;\n  font-size: 12px;\n  left: 130px;\n  padding: 10px;\n  position: absolute;\n  text-align: center;\n  top: 95px;\n  width: 80px;\n  z-index: 10;\n}\n:host .legend {\n  font-size: 12px;\n}\n:host rect {\n  cursor: pointer;                                              /* NEW */\n  stroke-width: 2;\n}\n:host rect.disabled {                                                 /* NEW */\n  fill: transparent !important;                                 /* NEW */\n}                                                               /* NEW */\n:host h1 {                                                            /* NEW */\n  font-size: 14px;                                              /* NEW */\n  text-align: center;                                           /* NEW */\n}    \t\n"
+	module.exports = "main { \n\tbackground-color: white;\n\tmargin-top: 10px;\n\tcolor: #333333;\n\tborder-color: #ddd;\n\tpadding: 10px 15px;\n\tborder-bottom: 1px solid transparent;\n\tborder-top-right-radius: 3px;\n\tborder-top-left-radius: 3px;\n}\n"
 
 /***/ },
 
 /***/ 797:
 /***/ function(module, exports) {
 
-	module.exports = "table, th, td {\n\t\t\t\t   border: 1px solid black;\n}\n\n.pwc-matrix {\n\tmargin: 0px 0px 50px 140px;\n}\n"
+	module.exports = ":host {\n  height: 360px;\n  margin: 0 auto;                                               /* NEW */\n  position: relative;\n  width: 360px;\n}\n:host .tooltip {\n  background: #eee;\n  box-shadow: 0 0 5px #999999;\n  color: #333;\n  display: none;\n  font-size: 12px;\n  left: 130px;\n  padding: 10px;\n  position: absolute;\n  text-align: center;\n  top: 95px;\n  width: 80px;\n  z-index: 10;\n}\n:host .legend {\n  font-size: 12px;\n}\n:host rect {\n  cursor: pointer;                                              /* NEW */\n  stroke-width: 2;\n}\n:host rect.disabled {                                                 /* NEW */\n  fill: transparent !important;                                 /* NEW */\n}                                                               /* NEW */\n:host h1 {                                                            /* NEW */\n  font-size: 14px;                                              /* NEW */\n  text-align: center;                                           /* NEW */\n}    \t\n"
 
 /***/ },
 
 /***/ 798:
 /***/ function(module, exports) {
 
-	module.exports = ".comparison-groups {\n\tlist-style: none;\n}\n"
+	module.exports = "table, th, td {\n\t\t\t\t   border: 1px solid black;\n}\n\n.pwc-matrix {\n\tmargin: 0px 0px 50px 140px;\n}\n"
 
 /***/ },
 
 /***/ 799:
 /***/ function(module, exports) {
 
-	module.exports = ".search-result{\n  border-bottom: 1px solid gray;\n  border-left: 1px solid gray;\n  border-right: 1px solid gray;\n  width:195px;\n  height: 20px;\n  padding: 5px;\n  background-color: white;\n  cursor: pointer;\n}\ndiv.search-result: hover {\n background-color: blue;\n}\n#search-box{\n  width: 200px;\n  height: 20px;\n}\n\n"
+	module.exports = ".comparison-groups {\n\tlist-style: none;\n}\n"
 
 /***/ },
 
 /***/ 800:
 /***/ function(module, exports) {
 
-	module.exports = ".selected {\n  background-color: #CFD8DC !important;\n  color: white;\n}\n.criteria {\n  margin: 0 0 2em 0;\n  list-style-type: none;\n  padding: 0;\n  width: 15em;\n}\n.criteria li {\n  cursor: pointer;\n  position: relative;\n  left: 0;\n  background-color: #EEE;\n  margin: .5em;\n  padding: .3em 0;\n  height: 25px;\n  border-radius: 4px;\n}\n.criteria li:hover {\n  color: #607D8B;\n  background-color: #DDD;\n  left: .1em;\n}\n.criteria li.selected:hover {\n  background-color: #BBD8DC !important;\n  color: white;\n}\n.criteria .text {\n  position: relative;\n  top: -3px;\n}\n.criteria .badge {\n  display: inline-block;\n  font-size: small;\n  color: white;\n  padding: 0.8em 0.7em 0 0.7em;\n  background-color: #607D8B;\n  line-height: 1em;\n  position: relative;\n  left: -1px;\n  top: -4px;\n  height: 1.8em;\n  margin-right: .8em;\n  border-radius: 4px 0 0 4px;\n}\nbutton {\n  font-family: Arial;\n  background-color: #eee;\n  border: none;\n  padding: 5px 10px;\n  border-radius: 4px;\n  cursor: pointer;\n  cursor: hand;\n}\nbutton:hover {\n  background-color: #cfd8dc;\n}\n.error {color:red;}\nbutton.delete-button{\n  float:right;\n  background-color: gray !important;\n  color:white;\n}\n\n"
+	module.exports = ".search-result{\n  border-bottom: 1px solid gray;\n  border-left: 1px solid gray;\n  border-right: 1px solid gray;\n  width:195px;\n  height: 20px;\n  padding: 5px;\n  background-color: white;\n  cursor: pointer;\n}\ndiv.search-result: hover {\n background-color: blue;\n}\n#search-box{\n  width: 200px;\n  height: 20px;\n}\n\n"
 
 /***/ },
 
 /***/ 801:
 /***/ function(module, exports) {
 
-	module.exports = "label {\n  display: inline-block;\n  width: 6em;\n  margin: .5em 0;\n  color: #607D8B;\n  font-weight: bold;\n}\ninput {\n  height: 2em;\n  font-size: 1em;\n  padding-left: .4em;\n}\nbutton {\n  margin-top: 20px;\n  font-family: Arial;\n  background-color: #eee;\n  border: none;\n  padding: 5px 10px;\n  border-radius: 4px;\n  cursor: pointer; cursor: hand;\n}\nbutton:hover {\n  background-color: #cfd8dc;\n}\nbutton:disabled {\n  background-color: #eee;\n  color: #ccc;\n  cursor: auto;\n}\n\n"
+	module.exports = ".selected {\n  background-color: #CFD8DC !important;\n  color: white;\n}\n.criteria {\n  margin: 0 0 2em 0;\n  list-style-type: none;\n  padding: 0;\n  width: 15em;\n}\n.criteria li {\n  cursor: pointer;\n  position: relative;\n  left: 0;\n  background-color: #EEE;\n  margin: .5em;\n  padding: .3em 0;\n  height: 25px;\n  border-radius: 4px;\n}\n.criteria li:hover {\n  color: #607D8B;\n  background-color: #DDD;\n  left: .1em;\n}\n.criteria li.selected:hover {\n  background-color: #BBD8DC !important;\n  color: white;\n}\n.criteria .text {\n  position: relative;\n  top: -3px;\n}\n.criteria .badge {\n  display: inline-block;\n  font-size: small;\n  color: white;\n  padding: 0.8em 0.7em 0 0.7em;\n  background-color: #607D8B;\n  line-height: 1em;\n  position: relative;\n  left: -1px;\n  top: -4px;\n  height: 1.8em;\n  margin-right: .8em;\n  border-radius: 4px 0 0 4px;\n}\nbutton {\n  font-family: Arial;\n  background-color: #eee;\n  border: none;\n  padding: 5px 10px;\n  border-radius: 4px;\n  cursor: pointer;\n  cursor: hand;\n}\nbutton:hover {\n  background-color: #cfd8dc;\n}\n.error {color:red;}\nbutton.delete-button{\n  float:right;\n  background-color: gray !important;\n  color:white;\n}\n\n"
 
 /***/ },
 
 /***/ 802:
 /***/ function(module, exports) {
 
-	module.exports = ":host .node rect {\n  fill: #999;\n}\n\n:host .node text {\n  font: 10px sans-serif;\n}\n\n:host .node--internal circle {\n  fill: #555;\n}\n\n:host .node--internal text {\n}\n\n:host .link {\n  fill: none;\n  stroke: #555;\n  stroke-opacity: 0.4;\n  stroke-width: 1.5px;\n}\n"
+	module.exports = "label {\n  display: inline-block;\n  width: 6em;\n  margin: .5em 0;\n  color: #607D8B;\n  font-weight: bold;\n}\ninput {\n  height: 2em;\n  font-size: 1em;\n  padding-left: .4em;\n}\nbutton {\n  margin-top: 20px;\n  font-family: Arial;\n  background-color: #eee;\n  border: none;\n  padding: 5px 10px;\n  border-radius: 4px;\n  cursor: pointer; cursor: hand;\n}\nbutton:hover {\n  background-color: #cfd8dc;\n}\nbutton:disabled {\n  background-color: #eee;\n  color: #ccc;\n  cursor: auto;\n}\n\n"
 
 /***/ },
 
 /***/ 803:
 /***/ function(module, exports) {
 
-	module.exports = ""
+	module.exports = ":host .node rect {\n  fill: #999;\n}\n\n:host .node text {\n  font: 10px sans-serif;\n}\n\n:host .node--internal circle {\n  fill: #555;\n}\n\n:host .node--internal text {\n}\n\n:host .link {\n  fill: none;\n  stroke: #555;\n  stroke-opacity: 0.4;\n  stroke-width: 1.5px;\n}\n"
 
 /***/ },
 
@@ -29279,6 +29280,13 @@ webpackJsonp([2],{
 /***/ },
 
 /***/ 806:
+/***/ function(module, exports) {
+
+	module.exports = ""
+
+/***/ },
+
+/***/ 807:
 /***/ function(module, exports) {
 
 	module.exports = ""

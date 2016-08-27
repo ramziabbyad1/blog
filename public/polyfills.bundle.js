@@ -123,8 +123,8 @@
 	// see issue https://github.com/AngularClass/angular2-webpack-starter/issues/709
 	// import 'core-js/es6/promise';
 	__webpack_require__(593);
+	__webpack_require__(810);
 	__webpack_require__(809);
-	__webpack_require__(808);
 	
 
 /***/ },
@@ -7059,7 +7059,8 @@
 /* 805 */,
 /* 806 */,
 /* 807 */,
-/* 808 */
+/* 808 */,
+/* 809 */
 /***/ function(module, exports) {
 
 	/******/ (function(modules) { // webpackBootstrap
@@ -7232,7 +7233,7 @@
 	/******/ ]);
 
 /***/ },
-/* 809 */
+/* 810 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/******/ (function(modules) { // webpackBootstrap
