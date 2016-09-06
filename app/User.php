@@ -18,6 +18,8 @@ implements AuthenticatableContract, CanResetPasswordContract
 	const ADMIN_ROLE = 'admin';
 	const POSTS_MODEL= 'App\Posts';
 	const COMMENTS_MODEL = 'App\Comments';
+	const HIERARCHIES_MODEL = 'App\Hierarchy';
+	const HIERARCHIES_FK = 'user_id';
 	const POSTS_PK = 'author_id';
 	const COMMENTS_FK = 'from_user';
 	const CAN_POST = true;
@@ -53,6 +55,11 @@ implements AuthenticatableContract, CanResetPasswordContract
 	{
 		return $this->hasMany(User::COMMENTS_MODEL, User::COMMENTS_FK);
 	}	
+
+	public function hierarchies()
+	{
+		return $this->hasMany(User::HIERARCHIES_MODEL, USER::HIERARCHIES_FK);
+	}
 
 	public function can_post()
 	{

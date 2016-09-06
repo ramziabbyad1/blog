@@ -28,6 +28,7 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController'
 ]);
+Route::resource('ahpda', 'AhpDA');
 Route::get('angular/ahp-app', 'AhpController@show');
 //
 Route::group(['middleware' => ['auth']], function()

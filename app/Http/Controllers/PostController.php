@@ -56,8 +56,6 @@ class PostController extends Controller
 	public function show($slug) 
 	{
 		$post = Posts::where('slug', $slug)->first();
-		Log::info("slug = ".$slug);
-		Log::info("post = ".$post);
 
 		if($post) {
 			if($post->active == false) {
