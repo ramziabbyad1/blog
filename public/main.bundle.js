@@ -28218,7 +28218,7 @@ webpackJsonp([2],{
 /***/ 748:
 /***/ function(module, exports) {
 
-	module.exports = "<h3>Repo list</h3>\n<ul>\n\t<li *ngFor=\"let repo of repos | async\">\n\t<a target=\"_blank\" href=\"{{repo.html_url}}\">\n      {{ repo.name }}\n    </a>\n  </li>\n</ul>\n\n<router-outlet></router-outlet>\n"
+	module.exports = "<h3>Repo list</h3>\n<ul>\n\t<li *ngFor=\"let repo of repos | async\">\n\t<a target=\"_blank\" href=\"{{repo.html_url}}\">\n      {{ repo.name }}\n    </a>\n  </li>\n</ul>\n\n<!--<router-outlet></router-outlet>-->\n"
 
 /***/ },
 
