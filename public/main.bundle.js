@@ -4,7 +4,7 @@ webpackJsonp([2],{
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var platform_browser_dynamic_1 = __webpack_require__(377);
+	var platform_browser_dynamic_1 = __webpack_require__(378);
 	var app_module_1 = __webpack_require__(566);
 	platform_browser_dynamic_1.platformBrowserDynamic().bootstrapModule(app_module_1.AppModule)
 	    .catch(function (err) { return console.error(err); });
@@ -844,7 +844,7 @@ webpackJsonp([2],{
 	 */
 	"use strict";
 	var core_1 = __webpack_require__(1);
-	var toPromise_1 = __webpack_require__(281);
+	var toPromise_1 = __webpack_require__(282);
 	var collection_1 = __webpack_require__(38);
 	var lang_1 = __webpack_require__(25);
 	/**
@@ -984,7 +984,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 64:
+/***/ 63:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -1000,7 +1000,7 @@ webpackJsonp([2],{
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var abstract_control_directive_1 = __webpack_require__(235);
+	var abstract_control_directive_1 = __webpack_require__(234);
 	/**
 	 * A directive that contains multiple {@link NgControl}s.
 	 *
@@ -1036,7 +1036,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 65:
+/***/ 64:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -1054,7 +1054,7 @@ webpackJsonp([2],{
 	var checkbox_value_accessor_1 = __webpack_require__(152);
 	var default_value_accessor_1 = __webpack_require__(153);
 	var normalize_validator_1 = __webpack_require__(522);
-	var number_value_accessor_1 = __webpack_require__(238);
+	var number_value_accessor_1 = __webpack_require__(237);
 	var radio_control_value_accessor_1 = __webpack_require__(155);
 	var select_control_value_accessor_1 = __webpack_require__(156);
 	var select_multiple_control_value_accessor_1 = __webpack_require__(157);
@@ -1183,7 +1183,7 @@ webpackJsonp([2],{
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var exceptions_1 = __webpack_require__(80);
-	var abstract_control_directive_1 = __webpack_require__(235);
+	var abstract_control_directive_1 = __webpack_require__(234);
 	/**
 	 * A base class that all control directive extend.
 	 * It binds a {@link Control} object to a DOM element.
@@ -1232,9 +1232,9 @@ webpackJsonp([2],{
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var base_wrapped_exception_1 = __webpack_require__(366);
-	var exception_handler_1 = __webpack_require__(367);
-	var exception_handler_2 = __webpack_require__(367);
+	var base_wrapped_exception_1 = __webpack_require__(367);
+	var exception_handler_1 = __webpack_require__(368);
+	var exception_handler_2 = __webpack_require__(368);
 	exports.ExceptionHandler = exception_handler_2.ExceptionHandler;
 	/**
 	 * @stable
@@ -1450,8 +1450,8 @@ webpackJsonp([2],{
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var control_container_1 = __webpack_require__(64);
-	var shared_1 = __webpack_require__(65);
+	var control_container_1 = __webpack_require__(63);
+	var shared_1 = __webpack_require__(64);
 	/**
 	 * This is a base class for code shared between {@link NgModelGroup} and {@link FormGroupName}.
 	 *
@@ -1532,8 +1532,8 @@ webpackJsonp([2],{
 	var lang_1 = __webpack_require__(25);
 	var model_1 = __webpack_require__(158);
 	var validators_1 = __webpack_require__(45);
-	var control_container_1 = __webpack_require__(64);
-	var shared_1 = __webpack_require__(65);
+	var control_container_1 = __webpack_require__(63);
+	var shared_1 = __webpack_require__(64);
 	exports.formDirectiveProvider = {
 	    provide: control_container_1.ControlContainer,
 	    useExisting: core_1.forwardRef(function () { return NgForm; })
@@ -1673,9 +1673,9 @@ webpackJsonp([2],{
 	var collection_1 = __webpack_require__(38);
 	var lang_1 = __webpack_require__(25);
 	var validators_1 = __webpack_require__(45);
-	var control_container_1 = __webpack_require__(64);
-	var reactive_errors_1 = __webpack_require__(241);
-	var shared_1 = __webpack_require__(65);
+	var control_container_1 = __webpack_require__(63);
+	var reactive_errors_1 = __webpack_require__(240);
+	var shared_1 = __webpack_require__(64);
 	exports.formDirectiveProvider = {
 	    provide: control_container_1.ControlContainer,
 	    useExisting: core_1.forwardRef(function () { return FormGroupDirective; })
@@ -1812,9 +1812,9 @@ webpackJsonp([2],{
 	var core_1 = __webpack_require__(1);
 	var validators_1 = __webpack_require__(45);
 	var abstract_form_group_directive_1 = __webpack_require__(105);
-	var control_container_1 = __webpack_require__(64);
-	var reactive_errors_1 = __webpack_require__(241);
-	var shared_1 = __webpack_require__(65);
+	var control_container_1 = __webpack_require__(63);
+	var reactive_errors_1 = __webpack_require__(240);
+	var shared_1 = __webpack_require__(64);
 	var form_group_directive_1 = __webpack_require__(107);
 	exports.formGroupNameProvider = {
 	    provide: control_container_1.ControlContainer,
@@ -1937,8 +1937,8 @@ webpackJsonp([2],{
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(1);
-	var http_1 = __webpack_require__(55);
-	__webpack_require__(278);
+	var http_1 = __webpack_require__(65);
+	__webpack_require__(279);
 	var CriteriaService = (function () {
 	    function CriteriaService(http) {
 	        this.http = http;
@@ -2130,9 +2130,9 @@ webpackJsonp([2],{
 	var core_1 = __webpack_require__(1);
 	var validators_1 = __webpack_require__(45);
 	var abstract_form_group_directive_1 = __webpack_require__(105);
-	var control_container_1 = __webpack_require__(64);
+	var control_container_1 = __webpack_require__(63);
 	var ng_form_1 = __webpack_require__(106);
-	var template_driven_errors_1 = __webpack_require__(365);
+	var template_driven_errors_1 = __webpack_require__(366);
 	exports.modelGroupProvider = {
 	    provide: control_container_1.ControlContainer,
 	    useExisting: core_1.forwardRef(function () { return NgModelGroup; })
@@ -2649,8 +2649,8 @@ webpackJsonp([2],{
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var PromiseObservable_1 = __webpack_require__(185);
-	var shared_1 = __webpack_require__(65);
+	var PromiseObservable_1 = __webpack_require__(184);
+	var shared_1 = __webpack_require__(64);
 	var async_1 = __webpack_require__(96);
 	var collection_1 = __webpack_require__(38);
 	var exceptions_1 = __webpack_require__(80);
@@ -3391,11 +3391,11 @@ webpackJsonp([2],{
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(1);
-	var http_1 = __webpack_require__(55);
-	__webpack_require__(184);
+	var http_1 = __webpack_require__(65);
+	var Observable_1 = __webpack_require__(5);
 	var Github = (function () {
-	    function Github(http) {
-	        this.http = http;
+	    function Github(jsonp) {
+	        this.jsonp = jsonp;
 	    }
 	    Github.prototype.getOrg = function (org) {
 	        return this.makeRequest("orgs/" + org);
@@ -3406,16 +3406,29 @@ webpackJsonp([2],{
 	    Github.prototype.getRepoForOrg = function (org, repo) {
 	        return this.makeRequest("repos/" + org + "/" + repo);
 	    };
+	    Github.prototype.getReposForUserFileSearch = function (user, fileType) {
+	        return this.makeRequest("search/repositories?q=user:" + user + "+language:" + fileType);
+	    };
 	    Github.prototype.makeRequest = function (path) {
 	        var params = new http_1.URLSearchParams();
 	        params.set('per_page', '100');
+	        params.set('callback', 'JSONP_CALLBACK');
 	        var url = "https://api.github.com/" + path;
-	        return this.http.get(url, { search: params })
-	            .map(function (res) { return res.json(); });
+	        console.log('url');
+	        console.log(url);
+	        return this.jsonp.get(url, { search: params })
+	            .map(function (res) { return res.json().data.items; })
+	            .catch(this.handleError);
+	    };
+	    Github.prototype.handleError = function (error) {
+	        var errMsg = (error.message) ? error.message :
+	            error.status ? error.status + " - " + error.statusText : 'Server error';
+	        console.error(errMsg); // log to console instead
+	        return Observable_1.Observable.throw(errMsg);
 	    };
 	    Github = __decorate([
 	        core_1.Injectable(), 
-	        __metadata('design:paramtypes', [(typeof (_a = typeof http_1.Http !== 'undefined' && http_1.Http) === 'function' && _a) || Object])
+	        __metadata('design:paramtypes', [(typeof (_a = typeof http_1.Jsonp !== 'undefined' && http_1.Jsonp) === 'function' && _a) || Object])
 	    ], Github);
 	    return Github;
 	    var _a;
@@ -3425,7 +3438,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 235:
+/***/ 234:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -3531,7 +3544,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 236:
+/***/ 235:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -3616,7 +3629,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 237:
+/***/ 236:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -3637,13 +3650,13 @@ webpackJsonp([2],{
 	var model_1 = __webpack_require__(158);
 	var validators_1 = __webpack_require__(45);
 	var abstract_form_group_directive_1 = __webpack_require__(105);
-	var control_container_1 = __webpack_require__(64);
+	var control_container_1 = __webpack_require__(63);
 	var control_value_accessor_1 = __webpack_require__(44);
 	var ng_control_1 = __webpack_require__(79);
 	var ng_form_1 = __webpack_require__(106);
 	var ng_model_group_1 = __webpack_require__(154);
-	var shared_1 = __webpack_require__(65);
-	var template_driven_errors_1 = __webpack_require__(365);
+	var shared_1 = __webpack_require__(64);
+	var template_driven_errors_1 = __webpack_require__(366);
 	exports.formControlBinding = {
 	    provide: ng_control_1.NgControl,
 	    useExisting: core_1.forwardRef(function () { return NgModel; })
@@ -3773,7 +3786,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 238:
+/***/ 237:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -3832,7 +3845,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 239:
+/***/ 238:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -3854,7 +3867,7 @@ webpackJsonp([2],{
 	var validators_1 = __webpack_require__(45);
 	var control_value_accessor_1 = __webpack_require__(44);
 	var ng_control_1 = __webpack_require__(79);
-	var shared_1 = __webpack_require__(65);
+	var shared_1 = __webpack_require__(64);
 	exports.formControlBinding = {
 	    provide: ng_control_1.NgControl,
 	    useExisting: core_1.forwardRef(function () { return FormControlDirective; })
@@ -3930,7 +3943,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 240:
+/***/ 239:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -3950,11 +3963,11 @@ webpackJsonp([2],{
 	var async_1 = __webpack_require__(96);
 	var validators_1 = __webpack_require__(45);
 	var abstract_form_group_directive_1 = __webpack_require__(105);
-	var control_container_1 = __webpack_require__(64);
+	var control_container_1 = __webpack_require__(63);
 	var control_value_accessor_1 = __webpack_require__(44);
 	var ng_control_1 = __webpack_require__(79);
-	var reactive_errors_1 = __webpack_require__(241);
-	var shared_1 = __webpack_require__(65);
+	var reactive_errors_1 = __webpack_require__(240);
+	var shared_1 = __webpack_require__(64);
 	var form_group_directive_1 = __webpack_require__(107);
 	var form_group_name_1 = __webpack_require__(108);
 	exports.controlNameBinding = {
@@ -4050,7 +4063,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 241:
+/***/ 240:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -4062,7 +4075,7 @@ webpackJsonp([2],{
 	 */
 	"use strict";
 	var exceptions_1 = __webpack_require__(80);
-	var error_examples_1 = __webpack_require__(364);
+	var error_examples_1 = __webpack_require__(365);
 	var ReactiveErrors = (function () {
 	    function ReactiveErrors() {
 	    }
@@ -4088,7 +4101,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 242:
+/***/ 241:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -4211,7 +4224,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 254:
+/***/ 253:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -4239,6 +4252,48 @@ webpackJsonp([2],{
 	    return About;
 	}());
 	exports.About = About;
+	
+
+/***/ },
+
+/***/ 254:
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+	    return c > 3 && r && Object.defineProperty(target, key, r), r;
+	};
+	var __metadata = (this && this.__metadata) || function (k, v) {
+	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+	};
+	var core_1 = __webpack_require__(1);
+	var github_1 = __webpack_require__(171);
+	var Observable_1 = __webpack_require__(5);
+	var router_1 = __webpack_require__(47);
+	var RepoList = (function () {
+	    function RepoList(github, route) {
+	        this.github = github;
+	        this.route = route;
+	    }
+	    __decorate([
+	        core_1.Input(), 
+	        __metadata('design:type', (typeof (_a = typeof Observable_1.Observable !== 'undefined' && Observable_1.Observable) === 'function' && _a) || Object)
+	    ], RepoList.prototype, "repos", void 0);
+	    RepoList = __decorate([
+	        core_1.Component({
+	            selector: 'repo-list',
+	            styles: [__webpack_require__(806)],
+	            template: __webpack_require__(748),
+	        }), 
+	        __metadata('design:paramtypes', [(typeof (_b = typeof github_1.Github !== 'undefined' && github_1.Github) === 'function' && _b) || Object, (typeof (_c = typeof router_1.ActivatedRoute !== 'undefined' && router_1.ActivatedRoute) === 'function' && _c) || Object])
+	    ], RepoList);
+	    return RepoList;
+	    var _a, _b, _c;
+	}());
+	exports.RepoList = RepoList;
 	
 
 /***/ },
@@ -4272,8 +4327,8 @@ webpackJsonp([2],{
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(1);
-	var http_1 = __webpack_require__(55);
-	__webpack_require__(278);
+	var http_1 = __webpack_require__(65);
+	__webpack_require__(279);
 	var MatrixService = (function () {
 	    function MatrixService(http) {
 	        this.http = http;
@@ -4330,7 +4385,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 282:
+/***/ 283:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -4339,7 +4394,7 @@ webpackJsonp([2],{
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var root_1 = __webpack_require__(62);
+	var root_1 = __webpack_require__(61);
 	var Subscription_1 = __webpack_require__(183);
 	/**
 	 * We need this JSDoc comment for affecting ESDoc.
@@ -4471,7 +4526,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 363:
+/***/ 364:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -4485,40 +4540,40 @@ webpackJsonp([2],{
 	var core_1 = __webpack_require__(1);
 	var checkbox_value_accessor_1 = __webpack_require__(152);
 	var default_value_accessor_1 = __webpack_require__(153);
-	var ng_control_status_1 = __webpack_require__(236);
+	var ng_control_status_1 = __webpack_require__(235);
 	var ng_form_1 = __webpack_require__(106);
-	var ng_model_1 = __webpack_require__(237);
+	var ng_model_1 = __webpack_require__(236);
 	var ng_model_group_1 = __webpack_require__(154);
-	var number_value_accessor_1 = __webpack_require__(238);
+	var number_value_accessor_1 = __webpack_require__(237);
 	var radio_control_value_accessor_1 = __webpack_require__(155);
-	var form_control_directive_1 = __webpack_require__(239);
-	var form_control_name_1 = __webpack_require__(240);
+	var form_control_directive_1 = __webpack_require__(238);
+	var form_control_name_1 = __webpack_require__(239);
 	var form_group_directive_1 = __webpack_require__(107);
 	var form_group_name_1 = __webpack_require__(108);
 	var select_control_value_accessor_1 = __webpack_require__(156);
 	var select_multiple_control_value_accessor_1 = __webpack_require__(157);
-	var validators_1 = __webpack_require__(242);
+	var validators_1 = __webpack_require__(241);
 	var checkbox_value_accessor_2 = __webpack_require__(152);
 	exports.CheckboxControlValueAccessor = checkbox_value_accessor_2.CheckboxControlValueAccessor;
 	var default_value_accessor_2 = __webpack_require__(153);
 	exports.DefaultValueAccessor = default_value_accessor_2.DefaultValueAccessor;
 	var ng_control_1 = __webpack_require__(79);
 	exports.NgControl = ng_control_1.NgControl;
-	var ng_control_status_2 = __webpack_require__(236);
+	var ng_control_status_2 = __webpack_require__(235);
 	exports.NgControlStatus = ng_control_status_2.NgControlStatus;
 	var ng_form_2 = __webpack_require__(106);
 	exports.NgForm = ng_form_2.NgForm;
-	var ng_model_2 = __webpack_require__(237);
+	var ng_model_2 = __webpack_require__(236);
 	exports.NgModel = ng_model_2.NgModel;
 	var ng_model_group_2 = __webpack_require__(154);
 	exports.NgModelGroup = ng_model_group_2.NgModelGroup;
-	var number_value_accessor_2 = __webpack_require__(238);
+	var number_value_accessor_2 = __webpack_require__(237);
 	exports.NumberValueAccessor = number_value_accessor_2.NumberValueAccessor;
 	var radio_control_value_accessor_2 = __webpack_require__(155);
 	exports.RadioControlValueAccessor = radio_control_value_accessor_2.RadioControlValueAccessor;
-	var form_control_directive_2 = __webpack_require__(239);
+	var form_control_directive_2 = __webpack_require__(238);
 	exports.FormControlDirective = form_control_directive_2.FormControlDirective;
-	var form_control_name_2 = __webpack_require__(240);
+	var form_control_name_2 = __webpack_require__(239);
 	exports.FormControlName = form_control_name_2.FormControlName;
 	var form_group_directive_2 = __webpack_require__(107);
 	exports.FormGroupDirective = form_group_directive_2.FormGroupDirective;
@@ -4531,7 +4586,7 @@ webpackJsonp([2],{
 	var select_multiple_control_value_accessor_2 = __webpack_require__(157);
 	exports.NgSelectMultipleOption = select_multiple_control_value_accessor_2.NgSelectMultipleOption;
 	exports.SelectMultipleControlValueAccessor = select_multiple_control_value_accessor_2.SelectMultipleControlValueAccessor;
-	var validators_2 = __webpack_require__(242);
+	var validators_2 = __webpack_require__(241);
 	exports.MaxLengthValidator = validators_2.MaxLengthValidator;
 	exports.MinLengthValidator = validators_2.MinLengthValidator;
 	exports.PatternValidator = validators_2.PatternValidator;
@@ -4580,7 +4635,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 364:
+/***/ 365:
 /***/ function(module, exports) {
 
 	/**
@@ -4602,7 +4657,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 365:
+/***/ 366:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -4614,7 +4669,7 @@ webpackJsonp([2],{
 	 */
 	"use strict";
 	var exceptions_1 = __webpack_require__(80);
-	var error_examples_1 = __webpack_require__(364);
+	var error_examples_1 = __webpack_require__(365);
 	var TemplateDrivenErrors = (function () {
 	    function TemplateDrivenErrors() {
 	    }
@@ -4637,7 +4692,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 366:
+/***/ 367:
 /***/ function(module, exports) {
 
 	/**
@@ -4700,7 +4755,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 367:
+/***/ 368:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -4711,7 +4766,7 @@ webpackJsonp([2],{
 	 * found in the LICENSE file at https://angular.io/license
 	 */
 	"use strict";
-	var base_wrapped_exception_1 = __webpack_require__(366);
+	var base_wrapped_exception_1 = __webpack_require__(367);
 	var collection_1 = __webpack_require__(38);
 	var lang_1 = __webpack_require__(25);
 	var _ArrayLogger = (function () {
@@ -4846,7 +4901,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 368:
+/***/ 369:
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -4933,7 +4988,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 394:
+/***/ 395:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -5394,7 +5449,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 395:
+/***/ 396:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -5411,10 +5466,10 @@ webpackJsonp([2],{
 	    return function (target, key) { decorator(target, key, paramIndex); }
 	};
 	var core_1 = __webpack_require__(1);
-	var http_1 = __webpack_require__(55);
+	var http_1 = __webpack_require__(65);
 	var Observable_1 = __webpack_require__(5);
 	__webpack_require__(756);
-	var http_status_codes_1 = __webpack_require__(394);
+	var http_status_codes_1 = __webpack_require__(395);
 	/**
 	* Class that creates seed data for in-memory database
 	* Must implement InMemoryDbService.
@@ -5817,7 +5872,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 396:
+/***/ 397:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -5971,7 +6026,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 397:
+/***/ 398:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -5986,8 +6041,8 @@ webpackJsonp([2],{
 	};
 	var core_1 = __webpack_require__(1);
 	var router_1 = __webpack_require__(47);
-	var hierarchy_1 = __webpack_require__(402);
-	var pie_chart_1 = __webpack_require__(396);
+	var hierarchy_1 = __webpack_require__(403);
+	var pie_chart_1 = __webpack_require__(397);
 	var matrix_service_1 = __webpack_require__(256);
 	var matrices_1 = __webpack_require__(407);
 	var ComparisonResults = (function () {
@@ -6051,7 +6106,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 398:
+/***/ 399:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -6287,7 +6342,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 399:
+/***/ 400:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -6358,7 +6413,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 400:
+/***/ 401:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -6449,7 +6504,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 401:
+/***/ 402:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -6466,7 +6521,7 @@ webpackJsonp([2],{
 	var router_1 = __webpack_require__(47);
 	var criterium_1 = __webpack_require__(255);
 	var criteria_service_1 = __webpack_require__(118);
-	var criteria_search_1 = __webpack_require__(399);
+	var criteria_search_1 = __webpack_require__(400);
 	var CriteriumDetail = (function () {
 	    function CriteriumDetail(criteriaService, route) {
 	        this.criteriaService = criteriaService;
@@ -6540,7 +6595,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 402:
+/***/ 403:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -6663,7 +6718,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 403:
+/***/ 404:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -6679,23 +6734,22 @@ webpackJsonp([2],{
 	var core_1 = __webpack_require__(1);
 	var router_1 = __webpack_require__(47);
 	var github_1 = __webpack_require__(171);
+	var repo_list_1 = __webpack_require__(254);
 	var RepoBrowser = (function () {
 	    function RepoBrowser(router, github) {
 	        this.router = router;
 	        this.github = github;
 	    }
-	    RepoBrowser.prototype.searchForOrg = function (orgName) {
-	        var _this = this;
-	        this.github.getOrg(orgName)
-	            .subscribe(function (_a) {
-	            var name = _a.name;
-	            console.log(name);
-	            _this.router.navigate(['/github', orgName]);
-	        });
+	    RepoBrowser.prototype.searchUserFiles = function (fileType) {
+	        var user = 'ramziabbyad1';
+	        console.log('fileType = ' + fileType);
+	        this.repos = this.github.getReposForUserFileSearch(user, fileType);
+	        //this.repos.subscribe(results => console.log(results));
 	    };
 	    RepoBrowser = __decorate([
 	        core_1.Component({
 	            selector: 'repo-browser',
+	            directives: [repo_list_1.RepoList],
 	            template: __webpack_require__(746),
 	            styles: [__webpack_require__(804)]
 	        }), 
@@ -6709,7 +6763,7 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 404:
+/***/ 405:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -6737,6 +6791,8 @@ webpackJsonp([2],{
 	        this.route.params.subscribe(function (params) {
 	            _this.org = _this.router.routerState.parent(_this.route).snapshot.params['org'];
 	            _this.repo = params['repo'] || '';
+	            console.log('this.repo');
+	            console.log(_this.repo);
 	            if (_this.repo) {
 	                _this.github.getRepoForOrg(_this.org, _this.repo)
 	                    .subscribe(function (repoDetails) {
@@ -6761,52 +6817,6 @@ webpackJsonp([2],{
 
 /***/ },
 
-/***/ 405:
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-	    return c > 3 && r && Object.defineProperty(target, key, r), r;
-	};
-	var __metadata = (this && this.__metadata) || function (k, v) {
-	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-	};
-	var core_1 = __webpack_require__(1);
-	var github_1 = __webpack_require__(171);
-	var router_1 = __webpack_require__(47);
-	var RepoList = (function () {
-	    function RepoList(github, route) {
-	        this.github = github;
-	        this.route = route;
-	    }
-	    RepoList.prototype.ngOnInit = function () {
-	        var _this = this;
-	        this.route.params.subscribe(function (params) {
-	            _this.org = params['org'];
-	            if (_this.org) {
-	                _this.repos = _this.github.getReposForOrg(_this.org);
-	            }
-	        });
-	    };
-	    RepoList = __decorate([
-	        core_1.Component({
-	            selector: 'repo-list',
-	            styles: [__webpack_require__(806)],
-	            template: __webpack_require__(748),
-	        }), 
-	        __metadata('design:paramtypes', [(typeof (_a = typeof github_1.Github !== 'undefined' && github_1.Github) === 'function' && _a) || Object, (typeof (_b = typeof router_1.ActivatedRoute !== 'undefined' && router_1.ActivatedRoute) === 'function' && _b) || Object])
-	    ], RepoList);
-	    return RepoList;
-	    var _a, _b;
-	}());
-	exports.RepoList = RepoList;
-	
-
-/***/ },
-
 /***/ 406:
 /***/ function(module, exports, __webpack_require__) {
 
@@ -6821,7 +6831,7 @@ webpackJsonp([2],{
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(1);
-	var about_1 = __webpack_require__(254);
+	var about_1 = __webpack_require__(253);
 	var Home = (function () {
 	    function Home() {
 	    }
@@ -23164,9 +23174,9 @@ webpackJsonp([2],{
 	 */
 	"use strict";
 	var core_1 = __webpack_require__(1);
-	var directives_1 = __webpack_require__(363);
+	var directives_1 = __webpack_require__(364);
 	var radio_control_value_accessor_1 = __webpack_require__(155);
-	var form_builder_1 = __webpack_require__(368);
+	var form_builder_1 = __webpack_require__(369);
 	/**
 	 * Shorthand set of providers used for building Angular forms.
 	 * @experimental
@@ -23252,16 +23262,16 @@ webpackJsonp([2],{
 	 * Forms providers are not included in default providers; you must import these providers
 	 * explicitly.
 	 */
-	var directives_1 = __webpack_require__(363);
+	var directives_1 = __webpack_require__(364);
 	exports.FORM_DIRECTIVES = directives_1.FORM_DIRECTIVES;
 	exports.REACTIVE_FORM_DIRECTIVES = directives_1.REACTIVE_FORM_DIRECTIVES;
-	var abstract_control_directive_1 = __webpack_require__(235);
+	var abstract_control_directive_1 = __webpack_require__(234);
 	exports.AbstractControlDirective = abstract_control_directive_1.AbstractControlDirective;
 	var abstract_form_group_directive_1 = __webpack_require__(105);
 	exports.AbstractFormGroupDirective = abstract_form_group_directive_1.AbstractFormGroupDirective;
 	var checkbox_value_accessor_1 = __webpack_require__(152);
 	exports.CheckboxControlValueAccessor = checkbox_value_accessor_1.CheckboxControlValueAccessor;
-	var control_container_1 = __webpack_require__(64);
+	var control_container_1 = __webpack_require__(63);
 	exports.ControlContainer = control_container_1.ControlContainer;
 	var control_value_accessor_1 = __webpack_require__(44);
 	exports.NG_VALUE_ACCESSOR = control_value_accessor_1.NG_VALUE_ACCESSOR;
@@ -23269,17 +23279,17 @@ webpackJsonp([2],{
 	exports.DefaultValueAccessor = default_value_accessor_1.DefaultValueAccessor;
 	var ng_control_1 = __webpack_require__(79);
 	exports.NgControl = ng_control_1.NgControl;
-	var ng_control_status_1 = __webpack_require__(236);
+	var ng_control_status_1 = __webpack_require__(235);
 	exports.NgControlStatus = ng_control_status_1.NgControlStatus;
 	var ng_form_1 = __webpack_require__(106);
 	exports.NgForm = ng_form_1.NgForm;
-	var ng_model_1 = __webpack_require__(237);
+	var ng_model_1 = __webpack_require__(236);
 	exports.NgModel = ng_model_1.NgModel;
 	var ng_model_group_1 = __webpack_require__(154);
 	exports.NgModelGroup = ng_model_group_1.NgModelGroup;
-	var form_control_directive_1 = __webpack_require__(239);
+	var form_control_directive_1 = __webpack_require__(238);
 	exports.FormControlDirective = form_control_directive_1.FormControlDirective;
-	var form_control_name_1 = __webpack_require__(240);
+	var form_control_name_1 = __webpack_require__(239);
 	exports.FormControlName = form_control_name_1.FormControlName;
 	var form_group_directive_1 = __webpack_require__(107);
 	exports.FormGroupDirective = form_group_directive_1.FormGroupDirective;
@@ -23292,12 +23302,12 @@ webpackJsonp([2],{
 	exports.SelectControlValueAccessor = select_control_value_accessor_1.SelectControlValueAccessor;
 	var select_multiple_control_value_accessor_1 = __webpack_require__(157);
 	exports.SelectMultipleControlValueAccessor = select_multiple_control_value_accessor_1.SelectMultipleControlValueAccessor;
-	var validators_1 = __webpack_require__(242);
+	var validators_1 = __webpack_require__(241);
 	exports.MaxLengthValidator = validators_1.MaxLengthValidator;
 	exports.MinLengthValidator = validators_1.MinLengthValidator;
 	exports.PatternValidator = validators_1.PatternValidator;
 	exports.RequiredValidator = validators_1.RequiredValidator;
-	var form_builder_1 = __webpack_require__(368);
+	var form_builder_1 = __webpack_require__(369);
 	exports.FormBuilder = form_builder_1.FormBuilder;
 	var model_1 = __webpack_require__(158);
 	exports.AbstractControl = model_1.AbstractControl;
@@ -23329,11 +23339,11 @@ webpackJsonp([2],{
 	function __export(m) {
 	    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 	}
-	__export(__webpack_require__(394));
 	__export(__webpack_require__(395));
+	__export(__webpack_require__(396));
 	var core_1 = __webpack_require__(1);
-	var http_1 = __webpack_require__(55);
-	var in_memory_backend_service_2 = __webpack_require__(395);
+	var http_1 = __webpack_require__(65);
+	var in_memory_backend_service_2 = __webpack_require__(396);
 	var InMemoryWebApiModule = (function () {
 	    function InMemoryWebApiModule() {
 	    }
@@ -23392,25 +23402,23 @@ webpackJsonp([2],{
 	var github_1 = __webpack_require__(171);
 	var forms_1 = __webpack_require__(521);
 	var platform_browser_1 = __webpack_require__(97);
-	var http_1 = __webpack_require__(55);
-	var about_1 = __webpack_require__(254);
+	var http_1 = __webpack_require__(65);
+	var about_1 = __webpack_require__(253);
 	var home_1 = __webpack_require__(406);
-	var repo_browser_1 = __webpack_require__(403);
-	var repo_list_1 = __webpack_require__(405);
-	var repo_detail_1 = __webpack_require__(404);
+	var repo_browser_1 = __webpack_require__(404);
+	var repo_list_1 = __webpack_require__(254);
+	var repo_detail_1 = __webpack_require__(405);
 	var common_1 = __webpack_require__(42);
-	// Imports for loading & configuring the in-memory web api
-	var http_2 = __webpack_require__(55);
 	var angular2_in_memory_web_api_1 = __webpack_require__(565);
 	var in_memory_data_1 = __webpack_require__(570);
-	var criteria_1 = __webpack_require__(400);
-	var comparisons_1 = __webpack_require__(398);
-	var criterium_detail_1 = __webpack_require__(401);
+	var criteria_1 = __webpack_require__(401);
+	var comparisons_1 = __webpack_require__(399);
+	var criterium_detail_1 = __webpack_require__(402);
 	var criteria_service_1 = __webpack_require__(118);
-	var criteria_search_1 = __webpack_require__(399);
+	var criteria_search_1 = __webpack_require__(400);
 	var matrix_service_1 = __webpack_require__(256);
-	var comparison_results_1 = __webpack_require__(397);
-	var pie_chart_1 = __webpack_require__(396);
+	var comparison_results_1 = __webpack_require__(398);
+	var pie_chart_1 = __webpack_require__(397);
 	var AppModule = (function () {
 	    function AppModule() {
 	    }
@@ -23430,14 +23438,19 @@ webpackJsonp([2],{
 	                comparison_results_1.ComparisonResults,
 	                pie_chart_1.PieChart
 	            ],
-	            imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, http_1.HttpModule, router_1.RouterModule.forRoot(app_routes_1.rootRouterConfig)],
+	            imports: [
+	                angular2_in_memory_web_api_1.InMemoryWebApiModule.forRoot(in_memory_data_1.InMemoryData),
+	                platform_browser_1.BrowserModule,
+	                forms_1.FormsModule,
+	                http_1.HttpModule,
+	                http_1.JsonpModule,
+	                router_1.RouterModule.forRoot(app_routes_1.rootRouterConfig)
+	            ],
 	            providers: [
 	                github_1.Github,
 	                criteria_service_1.CriteriaService,
 	                matrix_service_1.MatrixService,
-	                { provide: common_1.LocationStrategy, useClass: common_1.HashLocationStrategy },
-	                { provide: http_2.XHRBackend, useClass: angular2_in_memory_web_api_1.InMemoryBackendService },
-	                { provide: angular2_in_memory_web_api_1.SEED_DATA, useClass: in_memory_data_1.InMemoryData }
+	                { provide: common_1.LocationStrategy, useClass: common_1.HashLocationStrategy }
 	            ],
 	            bootstrap: [app_1.AppComponent]
 	        }), 
@@ -23454,16 +23467,16 @@ webpackJsonp([2],{
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var about_1 = __webpack_require__(254);
+	var about_1 = __webpack_require__(253);
 	var home_1 = __webpack_require__(406);
-	var repo_browser_1 = __webpack_require__(403);
-	var repo_list_1 = __webpack_require__(405);
-	var repo_detail_1 = __webpack_require__(404);
-	var criteria_1 = __webpack_require__(400);
-	var hierarchy_1 = __webpack_require__(402);
-	var comparisons_1 = __webpack_require__(398);
-	var criterium_detail_1 = __webpack_require__(401);
-	var comparison_results_1 = __webpack_require__(397);
+	var repo_browser_1 = __webpack_require__(404);
+	var repo_list_1 = __webpack_require__(254);
+	var repo_detail_1 = __webpack_require__(405);
+	var criteria_1 = __webpack_require__(401);
+	var hierarchy_1 = __webpack_require__(403);
+	var comparisons_1 = __webpack_require__(399);
+	var criterium_detail_1 = __webpack_require__(402);
+	var comparison_results_1 = __webpack_require__(398);
 	exports.rootRouterConfig = [
 	    { path: '', redirectTo: 'home', terminal: true },
 	    { path: 'home', component: home_1.Home },
@@ -23665,7 +23678,7 @@ webpackJsonp([2],{
 	__webpack_require__(757);
 	__webpack_require__(758);
 	__webpack_require__(760);
-	__webpack_require__(184);
+	__webpack_require__(278);
 	__webpack_require__(766);
 	
 
@@ -23685,7 +23698,7 @@ webpackJsonp([2],{
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(1);
-	var http_1 = __webpack_require__(55);
+	var http_1 = __webpack_require__(65);
 	var CriteriaSearchService = (function () {
 	    function CriteriaSearchService(http) {
 	        this.http = http;
@@ -28191,7 +28204,7 @@ webpackJsonp([2],{
 /***/ 746:
 /***/ function(module, exports) {
 
-	module.exports = "<h3>GitHub Browser</h3>\n\n<input type=\"text\" #repoName placeholder=\"Search Github Orgs\">\n<button (click)=\"searchForOrg(repoName.value)\">Search Orgs</button>\n\n<router-outlet></router-outlet>\n"
+	module.exports = "<h3>GitHub Browser</h3>\n\n<input type=\"text\" #fileType placeholder=\"Search by Language\">\n<button (click)=\"searchUserFiles(fileType.value)\">Search Ramzi's Github</button>\n<repo-list [repos]=\"repos\"></repo-list>\n"
 
 /***/ },
 
@@ -28205,7 +28218,7 @@ webpackJsonp([2],{
 /***/ 748:
 /***/ function(module, exports) {
 
-	module.exports = "<h3>Repo list</h3>\n<ul>\n\t<li *ngFor=\"let repo of repos | async\">\n    <a [routerLink]=\"['/github', repo.owner.login, repo.name]\">\n      {{ repo.name }}\n    </a>\n  </li>\n</ul>\n\n<router-outlet></router-outlet>\n"
+	module.exports = "<h3>Repo list</h3>\n<ul>\n\t<li *ngFor=\"let repo of repos | async\">\n\t<a target=\"_blank\" href=\"{{repo.html_url}}\">\n      {{ repo.name }}\n    </a>\n  </li>\n</ul>\n\n<router-outlet></router-outlet>\n"
 
 /***/ },
 
@@ -28643,8 +28656,8 @@ webpackJsonp([2],{
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var Subscriber_1 = __webpack_require__(27);
-	var tryCatch_1 = __webpack_require__(287);
-	var errorObject_1 = __webpack_require__(186);
+	var tryCatch_1 = __webpack_require__(288);
+	var errorObject_1 = __webpack_require__(185);
 	/**
 	 * Returns an Observable that emits all items emitted by the source Observable that are distinct by comparison from the previous item.
 	 * If a comparator function is provided, then it will be called for each item to test for whether or not that value should be emitted.
@@ -28943,7 +28956,7 @@ webpackJsonp([2],{
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var OuterSubscriber_1 = __webpack_require__(182);
-	var subscribeToResult_1 = __webpack_require__(189);
+	var subscribeToResult_1 = __webpack_require__(188);
 	/**
 	 * Projects each source value to an Observable which is merged in the output
 	 * Observable, emitting values only from the most recently projected Observable.
@@ -29087,7 +29100,7 @@ webpackJsonp([2],{
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var FutureAction_1 = __webpack_require__(282);
+	var FutureAction_1 = __webpack_require__(283);
 	var QueueScheduler_1 = __webpack_require__(791);
 	var AsyncScheduler = (function (_super) {
 	    __extends(AsyncScheduler, _super);
@@ -29113,7 +29126,7 @@ webpackJsonp([2],{
 	    function __() { this.constructor = d; }
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
-	var FutureAction_1 = __webpack_require__(282);
+	var FutureAction_1 = __webpack_require__(283);
 	/**
 	 * We need this JSDoc comment for affecting ESDoc.
 	 * @ignore
@@ -29148,7 +29161,7 @@ webpackJsonp([2],{
 
 	"use strict";
 	var QueueAction_1 = __webpack_require__(790);
-	var FutureAction_1 = __webpack_require__(282);
+	var FutureAction_1 = __webpack_require__(283);
 	var QueueScheduler = (function () {
 	    function QueueScheduler() {
 	        this.active = false;
