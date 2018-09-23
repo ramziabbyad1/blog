@@ -28,7 +28,10 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController'
 ]);
-Route::resource('ahpda', 'AhpDA');
+Route::get('ahpda/criteria/{id}', 'AhpDA@getCriteriaByHierarchyId');
+Route::get('ahpda/delete/{id}', 'AhpDA@deleteCriterium');
+Route::get('ahpda/update/{id}', 'AhpDA@updateCriterium');
+Route::get('ahpda/add/{id}', 'AhpDA@addCriteriumByHierarchyId');
 Route::get('angular/ahp-app', 'AhpController@show');
 //
 Route::group(['middleware' => ['auth']], function()

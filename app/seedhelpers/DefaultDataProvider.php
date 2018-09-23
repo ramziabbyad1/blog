@@ -57,114 +57,116 @@ class DefaultDataProvider
 		return [
 				[
 					'id' => 1,
-					'name' => 'A',
+					'name' => 'Decision',
 					'parent_id' => null,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 2,
-					'name' => 'B',
-					'parent_id' => null,
+					'name' => 'A',
+					'parent_id' => 1,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 3,
-					'name' => 'C',
-					'parent_id' => null,
+					'name' => 'B',
+					'parent_id' => 1,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 4,
-					'name' => 'A1',
+					'name' => 'C',
 					'parent_id' => 1,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 5,
-					'name' => 'A2',
-					'parent_id' => 1,
+					'name' => 'A1',
+					'parent_id' => 2,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 6,
-					'name' => 'B1',
+					'name' => 'A2',
 					'parent_id' => 2,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 7,
-					'name' => 'B2',
-					'parent_id' => 2,
+					'name' => 'B1',
+					'parent_id' => 3,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 8,
-					'name' => 'A1-1',
-					'parent_id' => 4,
+					'name' => 'B2',
+					'parent_id' => 3,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 9,
-					'name' => 'A1-2',
-					'parent_id' => 4,
+					'name' => 'A1-1',
+					'parent_id' => 5,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 10,
-					'name' => 'A1-3',
-					'parent_id' => 4,
+					'name' => 'A1-2',
+					'parent_id' => 5,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 11,
-					'name' => 'A1-4',
-					'parent_id' => 4,
+					'name' => 'A1-3',
+					'parent_id' => 5,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 12,
-					'name' => 'A2-1',
+					'name' => 'A1-4',
 					'parent_id' => 5,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 13,
-					'name' => 'A2-2',
-					'parent_id' => 5,
+					'name' => 'A2-1',
+					'parent_id' => 6,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 14,
-					'name' => 'A2-3',
-					'parent_id' => 5,
+					'name' => 'A2-2',
+					'parent_id' => 6,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 15,
-					'name' => 'B2-1',
-					'parent_id' => 7,
+					'name' => 'A2-3',
+					'parent_id' => 6,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 16,
-					'name' => 'B2-2',
-					'parent_id' => 7,
+					'name' => 'B2-1',
+					'parent_id' => 8,
 					'hierarchy_id' => 1
 				],
 				[
 					'id' => 17,
+					'name' => 'B2-2',
+					'parent_id' => 8,
+					'hierarchy_id' => 1
+				],
+				[
+					'id' => 18,
 					'name' => 'B2-3',
-					'parent_id' => 7,
+					'parent_id' => 8,
 					'hierarchy_id' => 1
 				]
 			];
 	}
 
-	public function getComparisons()
-	{
-		$criteria = $this->getCriteria();
-		echo('criteria');
-		var_dump($criteria);
+	public function getCriteriaGroups($criteria) {
 		$criteriaGroups = array();
 
 		foreach ($criteria as $value) 
@@ -178,6 +180,16 @@ class DefaultDataProvider
 				$criteriaGroups[$parent_id] = [$value];				
 			}
 		}
+		return $criteriaGroups;
+	}
+
+	public function getComparisons()
+	{
+		$criteria = $this->getCriteria();
+		echo('criteria');
+		var_dump($criteria);
+		$criteriaGroups = $this->getCriteriaGroups($criteria);
+
 		echo("criteriaGroups");
 		var_dump($criteriaGroups);
 

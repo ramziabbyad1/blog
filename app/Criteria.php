@@ -9,16 +9,16 @@ class Criteria extends Model
 	protected $table = "criteria";
 	
 	public function hierarchy() {
-		$this->hasMany('App\Hiearchy', 'hierarchy_id'); //foreign key
+		return $this->belongsTo('App\Hierarchy', 'hierarchy_id'); //foreign key
 	}
 
 	/* Self joins will be performed using query builder*/
 	public function parent() {
-		$this->belongsTo(self::class, 'parent_id');
+		return $this->belongsTo(self::class, 'parent_id');
 	}
 
 	public function children() {
-		$this->hasManyTo(self::class, 'id');
+		return $this->hasMany(self::class, 'id');
 	}
 	
 

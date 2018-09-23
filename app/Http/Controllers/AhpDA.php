@@ -2,23 +2,46 @@
 
 namespace App\Http\Controllers;
 
+
+use App\Http\Controllers\Controller;
+use App\Hierarchy;
+use App\Criteria;
+use App\Dto\Node;
+use App\Dto\HierarchyDTO;
+
 use Illuminate\Http\Request;
-
-use App\Http\Requests;
-use App\Hierarchies;
-
+use Illuminate\Http\Response;
 use Log;
 
 class AhpDA extends Controller
 {
 	
-	public function show() {	
+	public function default_hierarchy() {	
 					
-		if (!Auth::check())	{
-			$default_id = 0;
+		//if (!Auth::check())	{
+			$default_id = 1;
 			Log::info('hit ahpda logic');
-			return Hierarchies::find($default_id);	
-		} 
-
+			$hierarchy = Hierarchy::find($default_id);
+			Log::info($hierarchy);	
+		//} 
+			return $hierarchy;
 	}
+
+	public function getCriteriaByHierarchyId(Request $request, $id) {
+		$criteria = Hierarchy::find($id)->criteria()
+						->leftJoin('criteria as c', 'criteria.parent_id', '=', 'c.id')
+						->select('criteria.name'
+						, 'criteria.id', 'c.name as parent_name', 'c.id as parent_id')
+						->get();
+		$response = response()
+						->json($criteria)
+						->setCallback($request->input('callback'));
+		Log::debug($response);
+		return $response;
+	}
+
+	public function deleteCriterium(Request $request, $id) {
+		Criteria::destroy($id);
+	}
+ 
 }
